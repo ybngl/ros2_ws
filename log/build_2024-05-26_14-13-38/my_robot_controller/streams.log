@@ -1,0 +1,39 @@
+[0.773s] Invoking command in '/home/ybngl/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/ybngl/ros2_ws/build/my_robot_controller/prefix_override:/home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ybngl/ros2_ws/build/my_robot_controller/build
+[1.104s] running develop
+[1.314s] Removing /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.355s] Invoked command in '/home/ybngl/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/ybngl/ros2_ws/build/my_robot_controller/prefix_override:/home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ybngl/ros2_ws/build/my_robot_controller/build
+[1.357s] Invoking command in '/home/ybngl/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/ybngl/ros2_ws/build/my_robot_controller/prefix_override:/home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ybngl/ros2_ws/build/my_robot_controller/build install --record /home/ybngl/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[1.688s] running egg_info
+[1.689s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.689s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.689s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.690s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.690s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.692s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.693s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.694s] running build
+[1.694s] running build_py
+[1.695s] copying my_robot_controller/draw_circle.py -> /home/ybngl/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.695s] copying my_robot_controller/pose_subscriber.py -> /home/ybngl/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.695s] running install
+[1.696s] running install_lib
+[1.697s] creating /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.697s] copying /home/ybngl/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.697s] copying /home/ybngl/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.697s] copying /home/ybngl/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.697s] copying /home/ybngl/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.698s] byte-compiling /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.699s] byte-compiling /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[1.699s] byte-compiling /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.700s] byte-compiling /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.700s] running install_data
+[1.700s] copying resource/my_robot_controller -> /home/ybngl/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.701s] copying package.xml -> /home/ybngl/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.701s] running install_egg_info
+[1.703s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.705s] running install_scripts
+[1.729s] Installing draw_circle script to /home/ybngl/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.729s] Installing pose_subscriber script to /home/ybngl/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.730s] Installing test_node script to /home/ybngl/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.730s] writing list of installed files to '/home/ybngl/ros2_ws/build/my_robot_controller/install.log'
+[1.763s] Invoked command in '/home/ybngl/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/ybngl/ros2_ws/build/my_robot_controller/prefix_override:/home/ybngl/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ybngl/ros2_ws/build/my_robot_controller/build install --record /home/ybngl/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
